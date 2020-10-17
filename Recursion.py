@@ -1,3 +1,4 @@
+### Power Set Problem
 """
 1. Please find the power set of integers of integer n. This problem is a recursion question, as if we know the power set of n-1, which can generates the
    power set of n by simply adding n to each element of n-1 power set. 
@@ -18,7 +19,7 @@ def getsubsets(L):
         # add one with last element
     return smaller + new  # combine those with last element and those without
 print(getsubsets([1, 2, 3, 4]))
-
+### Fibonacci number
 """
 2. Fibonacci numbers: commonly denoted Fn, form a sequence called Fibonacci sequence, such that each number is the sum of the two preceding ones, starting from 0 and 1.
     i.e. F0 = 0 
