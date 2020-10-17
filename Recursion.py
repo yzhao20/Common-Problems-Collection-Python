@@ -48,3 +48,13 @@ def fib_recur(n):
       return 1
    else:
       return fib_recur(n - 1) + fib_recur(n - 2)   # call this function itself twice with two different inputs, add them together.
+"""
+Website official solution for Fibonacci series up to integer n.
+"""
+def fib(n):
+   a, b = 0, 1  # assign 0, 1 to a and b seperately
+   while a < n:  # As this function is designed to print out any fibonacci number that is less than n, so the condition is comparing a and n
+      print(a, end=" ") # print out a, and we notice that a would be always less than n. The end = " " argument is used to print out the sequency in a single line.
+      a, b = b, a + b # assign b, a + b to a and b seperately. This is key, that makes a + b always be the next number. 
+   print()  # This one is tricky, looks like optional but not quite sure.
+fib(100)
