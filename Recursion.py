@@ -18,3 +18,29 @@ def getsubsets(L):
         # add one with last element
     return smaller + new  # combine those with last element and those without
 print(getsubsets([1, 2, 3, 4]))
+
+"""
+2. Fibonacci numbers: commonly denoted Fn, form a sequence called Fibonacci sequence, such that each number is the sum of the two preceding ones, starting from 0 and 1.
+    i.e. F0 = 0 
+         F1 = 1 
+         F2 = 1 
+         F3 = 2 
+         F4 = 3 
+         F5 = 5
+         ...
+    iterative question.
+"""
+def fib_iter(n):
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1 
+    else:
+        fib_i = 0
+        fib_ii = 1
+        for i in range(n - 1):
+            tmp = fib_i
+            fib_i = fib_ii
+            fib_ii = tmp + fib_i 
+        return fib_ii
+print(fib_iter(6))
