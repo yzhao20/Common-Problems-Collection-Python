@@ -5,7 +5,7 @@ Example:
   n = 1, power set is: [], [1]
   n = 2, power set is: [], [1], [2], [1, 2] (notice that the new two elements are just adding 2 to each element of 1's power set.)
   n = 3, power set is: [], [1], [2], [1, 2], [3], [1, 3], [2, 3], [1, 2, 3]  (notice that the new 4 elements are just adding 3 to each element of 2's power set.)
-Such a classical resursion problem.
+Such a classical resursion problem whih O(2**n), that means it has a high compuational complexity.
 """
 def getsubsets(L):
     if len(L) == 0: # base case, need to specify this. 
