@@ -1,5 +1,5 @@
 """
-1. The question is simple, please find the power set of integers from 1 to n. This problem is a recursion question, as if we know the power set of n-1, which can generates the
+1. Please find the power set of integers of integer n. This problem is a recursion question, as if we know the power set of n-1, which can generates the
    power set of n by simply adding n to each element of n-1 power set. 
 Example:
   n = 1, power set is: [], [1]
