@@ -24,16 +24,27 @@ print(getsubsets([1, 2, 3, 4]))
     i.e. F0 = 0, F1 = 1, F2 = 1, F3 = 2, F4 = 3, F5 = 5 ...  obviously an iterative question.
 """
 def fib_iter(n):
-    if n == 0:
+    if n == 0:   # base case
         return 0
-    elif n == 1:
+    elif n == 1:  # still base case as Fibonacci requires two starting points
         return 1 
     else:
-        fib_i = 0
-        fib_ii = 1
-        for i in range(n - 1):
-            tmp = fib_i
-            fib_i = fib_ii
-            fib_ii = tmp + fib_i 
+        fib_i = 0 # one start point
+        fib_ii = 1  # another start point
+        for i in range(n - 1): # range(n -1) doesnt' include n - 1 and n - 2, but fibonacci has two starting points already.
+            tmp = fib_i # assign the first previous number to a temporary variable
+            fib_i = fib_ii  # assign the second previous number to a temporary variable
+            fib_ii = tmp + fib_i  # assign the sum of two previous numbers
         return fib_ii
 print(fib_iter(6))
+
+"""
+Another solution for Fibonacci numbers
+"""
+def fib_recur(n):
+   if n == 0:   # base case
+      return 0
+   elif n == 1:   # base case
+      return 1
+   else:
+      return fib_recur(n - 1) + fib_recur(n - 2)   # call this function itself twice with two different inputs, add them together.
