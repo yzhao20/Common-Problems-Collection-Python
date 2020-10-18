@@ -3,7 +3,7 @@ Four major sorting algorithms:
 1. Monkey sort: aka bogosort, stupid sort, slowsort, permutation sort, shotgun sort. Best case: O(n). Worst case: unbounded !! n factorial, n to n power or even more!
 2. Bubble sort: Famous sorting approach. O(n^2)
 3. Selection sort: Easy to understand. O(n^2)
-4. Merge sort:
+4. Merge sort: Best among those approaches. O(n*log(n)), which increases slowly particularly when n is large.
 """
 
 """
@@ -57,14 +57,35 @@ print(selection_sort([3, 4, 1, -8, -9]))
 
 """
 4. Merge sort's major steps: 
-   1. Compare consecutive paris
-   2. Swap elements in pair if needed, such that smaller element is first.
+   1. If list is of length 0 or 1, done.
+   2. If list has more than one element, split into two lists and sort each.
+   3. Merge sorted sublists
+      3.1 Look at first element of each, move smaller one to the result list
+      3.2 when one list is empty, just copy rest of the other list.
 """
-def 
-
-
-
-
-
-
-
+def merge(left, right): # Two arguments as input.
+    result = []   # Initialize an empty result list
+    i, j = 0, 0  # Assign 0's to both i and j
+    while i < len(left) and j < len(right):  # When lef and righ are both not empty
+        if left[i] < right[j]:  # If the first element in left is smaller than the first element in right
+            result.append(left[i]) # Append the small value in the result list
+            i += 1 
+        else:     # If the first element in left is bigger than the first element in right
+            result.append(right[j])  # Append the small value in the result list
+            j += 1 
+    while (i < len(left)):  # Once the right list is empty
+        result.append(left[i])  # Copy the left list
+        i += 1
+    while (j < len(right)):  # Once the left list is empty
+        result.append(right[j])  # Copy the right list
+        j += 1
+    return result
+def merge_sort(L):  # This is the main function, input is the original list and return the sorted list.
+    if len(L) < 2:   # Base case for the recursive function
+        return L[:]   # If empty or only one element, done.
+    else:  
+        mid = len(L) // 2
+        left = merge_sort(L[:mid])   # Call this function itself with left part of the original list, return a list
+        right = merge_sort(L[mid:])   # Call this function itself with right part of the original list, return a list
+        return  merge(left, right)   # Call the merge function with two arguments.
+print(merge_sort([-5, 2, -1, 3, 100, -100]))
