@@ -5,6 +5,6 @@
 #### 2. Algorithms
 ##### 2.1 Recursive problem
 ##### 2.2 Cross Validation
-##### 2.3 Searching
+##### 2.3 Searching (Linear and Bisection)
 ##### 2.4 Sorting (Monkey, Bubble, Selection, Merge)
 
