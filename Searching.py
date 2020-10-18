@@ -38,8 +38,8 @@ Assumption: The list L is sorted alreay!
 """
 def bisect_search2(L, e):
     def bisect_search_helper(L, e, low, high):   # define another function with two extra arguments high and low
-        if high == low:   # if high and low are same, that means no more item in list need to be checked, done
-            return L[low]  == e  # Just return if the last element is what we search for.
+        if high == low:   # Base case in recursive function.
+            return L[low]  == e  # Check if it is what we search for.
         mid = (low + high) // 2  # set the mid as another variable, which equals the half point (floor division here).
         if L[mid] == e:  # if found, return true
             return True
