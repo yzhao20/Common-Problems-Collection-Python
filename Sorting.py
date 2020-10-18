@@ -2,7 +2,7 @@
 Four major sorting algorithms:
 1. Monkey sort: aka bogosort, stupid sort, slowsort, permutation sort, shotgun sort. Best case: O(n). Worst case: unbounded !! n factorial, n to n power or even more!
 2. Bubble sort: Famous sorting approach. O(n^2)
-3. Selection sort:
+3. Selection sort: Easy to understand. O(n^2)
 4. Merge sort:
 """
 
@@ -15,7 +15,6 @@ Four major sorting algorithms:
 def monkey_sort(L):
     while not is_sorted(L):  # This piece of code is just a demonstration as we need to define is_sorted function and import random library first.
         random.shuffle(L)
-
 
 
 """
@@ -36,3 +35,36 @@ def bubble_sort(L):
                 temp = L[j]  # Let the second one element equal to a temprary variable
                 L[j] = L[j - 1]  # Let the bigger element to the second one.
                 L[j - 1] = temp  # Let the temporary element (smaller value) to the first one.
+
+               
+"""
+3. Selection sort's major steps: 
+   1. Compare consecutive paris
+   2. Swap elements in pair if needed, such that smaller element is first
+   3. When reach end of list, start over again
+   4. Stop when no more swaps have been made in the last look through.
+"""
+def selection_sort(L):
+    suffixSt = 0   # The initial position 0, i.e 1st element.
+    while suffixSt != len(L):  # The loop condition until reaches the end of the list, look through the entire list
+        for i in range(suffixSt, len(L)):  # Look through all elements in the list.
+            if L[i] < L[suffixSt]:  # If some element is smaller than the left element
+                L[suffixSt], L[i] = L[i], L[suffixSt] # Make a swap for these two values.
+        suffixSt += 1  # This statement is used to go to the next for loop step.
+    return L # Finanly output the result.
+print(selection_sort([3, 4, 1, -8, -9]))
+
+
+"""
+4. Merge sort's major steps: 
+   1. Compare consecutive paris
+   2. Swap elements in pair if needed, such that smaller element is first.
+"""
+def 
+
+
+
+
+
+
+
