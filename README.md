@@ -1,7 +1,8 @@
 ### Data Structure and Algorithm
 #### 1. Data Structure
-##### 1.1 List, Tuple, Set, Dictionary
+##### 1.1 Comprehension
 ##### 1.2 Variable Scope
+##### 1.3 Data Type Conversion
 
 #### 2. Algorithms
 ##### 2.1 Recursive problem
