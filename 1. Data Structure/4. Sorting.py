@@ -46,8 +46,7 @@ print(s_employee)
 
 
 """
-3 Dictionary: sorted function requires more arguments to determine the sort criteria.
+4 Dictionary: the attrgetter function in the operator module can help with this.
 """
 from operator import attrgetter  # One function in the operator module does the same job, which can be used in the sorted function.
-
 s_employee = sorted(employee, key=attrgetter('name'), reverse=True)  # Use the attrgetter('name') as the key argument.
