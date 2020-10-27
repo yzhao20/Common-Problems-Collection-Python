@@ -3,6 +3,8 @@
 ##### 1.1 Comprehension
 ##### 1.2 Variable Scope
 ##### 1.3 Data Type Conversion
+##### 1.4 Sorting
+##### 1.5 String Formatting
 
 #### 2. Algorithms
 ##### 2.1 Recursive problem
