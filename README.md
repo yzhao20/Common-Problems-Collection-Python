@@ -5,6 +5,7 @@
 ##### 1.3 Data Type Conversion
 ##### 1.4 Sorting
 ##### 1.5 String Formatting
+##### 1.6 Datetime
 
 #### 2. Algorithms
 ##### 2.1 Recursive problem
