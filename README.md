@@ -14,3 +14,7 @@
         2.3 Searching (Linear and Bisection)
         2.4 Sorting (Monkey, Bubble, Selection, Merge)
 
+#### 3. OOP
+        3.1 Classes
+        3.2 Inherience
+        3.3 Super
