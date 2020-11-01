@@ -7,6 +7,7 @@
         1.5 Advanced String Formatting
         1.6 Datetime and time zone
         1.7 Reading and Writing to files
+        1.8 Random Numbers
 
 #### 2. Algorithms
         2.1 Recursive problem
