@@ -8,6 +8,8 @@
         1.6 Datetime and time zone
         1.7 Reading and Writing to files
         1.8 Random Numbers
+        1.9 Context Managers
+        1.10 Logging to Files, Seeting Levels, and Formatting
 
 #### 2. Algorithms
         2.1 Recursive problem
