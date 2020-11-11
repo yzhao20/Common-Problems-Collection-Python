@@ -18,6 +18,9 @@
         2.4 Sorting (Monkey, Bubble, Selection, Merge)
 
 #### 3. OOP
-        3.1 Classes
-        3.2 Inherience
-        3.3 Super
+        3.1 Classes and Instances
+        3.2 Class variables
+        3.3 Classmethods and staticmethods
+        3.4 Inheritance - Creating Subclasses
+        3.5 Special (Magic/Dunder) Methods
+        3.6 Property Decorators - Getters, Setters, and Deleters
