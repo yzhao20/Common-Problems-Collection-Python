@@ -24,3 +24,12 @@
         3.4 Inheritance - Creating Subclasses
         3.5 Special (Magic/Dunder) Methods
         3.6 Property Decorators - Getters, Setters, and Deleters
+
+#### 4. Pandas
+        4.1 Getting started with data analysis
+        4.2 
+        
+        
+        
+#### 5. Matplotlib
+        5.1 
