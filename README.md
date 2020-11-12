@@ -26,10 +26,27 @@
         3.6 Property Decorators - Getters, Setters, and Deleters
 
 #### 4. Pandas
-        4.1 Getting started with data analysis
-        4.2 
+        4.1 Getting started with data analysis- Installation and Loading Data
+        4.2 DataFrame and Series Basics- Selecting Rows and Columns
+        4.3 Indexes- How to Set, Reset, and Use Indexes
+        4.4 Filtering - Using Conditionals to Filter Rows and Columns
+        4.5 Updating Rows and Columns - Modifying Data Within DataFrames
+        4.6 Add/Remove Rows and Columns From DataFrames
+        4.7 Sorting Data
+        4.8 Grouping and Aggregating - Analyzing and Exploring Your Data
+        4.9 Cleaning Data - Casting Datatypes and Handling Missing Values
+        4.10 Working with Dates and Time Series Data
+        4.11 Reading/Writing Data to Different Sources - Excel, JSON, SQL, Etc
         
-        
-        
+
 #### 5. Matplotlib
-        5.1 
+        5.1 Creating and Customizing Our First Plots
+        5.2 Bar Charts and Analyzing Data from CSVs
+        5.3 Pie Charts
+        5.4 Stack Plots
+        5.5 Filling Area on Line Plots
+        5.6 Histograms
+        5.7 Scatter Plots
+        5.8 Plotting Time Series Data
+        5.9 Plotting Live Data in Real-Time
+        5.10 Subplots
