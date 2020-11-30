@@ -1,4 +1,3 @@
-### Data Structure and Algorithm
 #### 1. Data Structure
         1.1 Comprehension
         1.2 Variable Scope - LEGB
