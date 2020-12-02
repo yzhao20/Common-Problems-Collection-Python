@@ -1,4 +1,4 @@
-#### 1. Data Structure
+#### 1. Data Structures
         1.1 Comprehension
         1.2 Variable Scope - LEGB
         1.3 Data Type Conversion
