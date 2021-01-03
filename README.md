@@ -10,7 +10,7 @@
         1.9 Context Managers
         1.10 Logging to Files, Seeting Levels, and Formatting
 
-#### 2. Algorithms
+#### 2. Algorithm
         2.1 Recursive problem
         2.2 Cross Validation
         2.3 Searching (Linear and Bisection)
